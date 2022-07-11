@@ -1,0 +1,229 @@
+:root{
+  --main-color:#5CA5A5;
+  --second-color:#2B3939;
+}
+
+
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/league-spartan-v5-latin-500.eot');
+  src: url('../fonts/league-spartan-v5-latin-500.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/league-spartan-v5-latin-500.woff2') format('woff2'), 
+  url('../fonts/league-spartan-v5-latin-500.woff') format('woff'), 
+  
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/league-spartan-v5-latin-700.eot'); 
+  src: url('../fonts/league-spartan-v5-latin-700.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/league-spartan-v5-latin-700.woff2') format('woff2'),
+  url('../fonts/league-spartan-v5-latin-700.woff') format('woff'), 
+  
+}
+body{
+  font-family: "League Spartan" , sans-serif ;
+  font-weight: 500 , 700;
+  background-color: #EFFAFA;
+}
+.container{
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+}
+.site-header{
+  margin-right: auto;
+  margin-left: auto;
+  width: 1366px;
+  height: 156px;
+  display: block;
+  content: "";
+  background-image: url("../images/header.svg");
+  background-repeat: no-repeat;
+  /* width: 100%;
+  height: 100%;
+  */
+}
+.hero-section{
+  
+}
+.job-box{
+  margin-top: 76px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  border-left: 5px solid #5CA5A5;
+  
+}
+.main-img{
+  
+  padding-left: 35px;
+  
+}
+.job-text-d{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 36px;
+  
+}
+.job-span-box{
+  display: flex;
+  align-items: center;
+}
+.job-s{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-color);
+  
+}
+.job-new{
+  margin-left: 16px;
+  background:var(--main-color);
+  border-radius: 12px;
+  padding: 5px 8px 4px 8px;
+  
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+}
+.job-featured{
+  margin-left: 8px;
+  background: var(--second-color);
+  border-radius: 12px;
+  padding: 5px 8px 4px 8px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+}
+.which-job{
+  margin: 0;
+  padding-top: 8px;;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--second-color);
+  
+}
+.which-job:hover{
+  color: var(--main-color);
+}
+.job-time{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px; 
+  
+}
+.job-time-text{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.115385px;
+  
+  color: #7C8F8F;
+  
+}
+.job-time-text:nth-child(2)::before{
+  margin-right: 16px;
+  margin-left: 16px;
+  display:  block;
+  content: "";
+  background-color: #B7C4C4;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+.job-time-text:nth-child(3)::before{
+  margin-right: 16px;
+  margin-left: 16px;
+  display:  block;
+  content: "";
+  background-color: #B7C4C4;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+.languages{
+  display: flex;
+  margin-right: 40px;
+  margin-left: auto;
+  
+}
+.languages-start{
+  list-style: none;
+  
+  
+}
+.ln-b{
+  margin-left: 16px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color:var(--main-color);
+  background-color: rgba(91, 164, 164, 0.1);
+  mix-blend-mode: normal;
+  border: none;
+  border-radius: 4px;
+}
+.ln-b:hover{
+  color: white;
+  background-color: var(--main-color);
+}
+.job-box-second{
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  border-left: 5px solid #5CA5A5;
+  
+}
+.job-box-next{
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  
+}
+
+.job-box-next:nth-child(10){
+  margin-top: 24px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  
+}
+
